@@ -1,7 +1,7 @@
 # Analizador URL
 
 ## Descripción
-Una aplicación de escritorio desarrollada en PyQT6, esta enfocada en ciberseguridad y ofrece varias opciones de sitios web que permiten analizar una URL y verificar si es confiable.
+Una aplicación de escritorio desarrollada en PyQT6, esta enfocada en ciberseguridad y ofrece varias opciones de sitios web que permiten analizar una URL y verificar si es confiable, el resultado se muestra en el navegador web.
 
 ## Capturas de pantalla
 ![image](https://github.com/user-attachments/assets/ef32a7ba-31b8-4aad-91d9-b037b8cd6518)
