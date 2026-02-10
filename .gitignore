@@ -1,0 +1,24 @@
+# Entornos virtuales
+venv/
+.env/
+
+# Archivos de Python compilados
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Archivos de configuración de usuario
+*.env
+*.vscode/
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de logs
+debug.log
+*.log
+
+# Script temporal de conversión de íconos
+convertir_a_ico.py

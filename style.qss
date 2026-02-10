@@ -1,0 +1,126 @@
+/* Main window background */
+QWidget {
+    background-color: #0f0f0f;
+    color: #e0e0e0;
+    font-family: "Segoe UI Variable", "Segoe UI", "Inter", sans-serif;
+    font-size: 14px;
+}
+
+/* Titles and Labels */
+QLabel {
+    font-weight: 500;
+    color: #ffffff;
+}
+
+QLabel#titulo {
+    font-size: 18px;
+    font-weight: 700;
+    color: #00a2ff;
+    margin-bottom: 5px;
+}
+
+QLabel#reputacion {
+    background-color: #1a1a1a;
+    border: 1px solid #333333;
+    border-radius: 8px;
+    padding: 10px;
+    font-size: 13px;
+}
+
+/* Text Inputs */
+QTextEdit {
+    background-color: #1a1a1a;
+    color: #ffffff;
+    border: 2px solid #333333;
+    border-radius: 10px;
+    padding: 10px;
+}
+QTextEdit:focus {
+    border: 2px solid #00a2ff;
+    background-color: #222222;
+}
+
+/* Buttons */
+QPushButton {
+    background: qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 #333333, stop:1 #222222);
+    color: #ffffff;
+    border: 1px solid #444444;
+    border-radius: 8px;
+    padding: 8px 16px;
+    font-weight: 600;
+}
+QPushButton:hover {
+    background: qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 #444444, stop:1 #333333);
+    border: 1px solid #00a2ff;
+}
+QPushButton:pressed {
+    background-color: #007acc;
+    border: 1px solid #00a2ff;
+}
+
+/* Specific Style for Analysis Button if needed (using property or name) */
+/* QPushButton#boton_analizar { background: #0078d7; } */
+
+/* ComboBoxes */
+QComboBox {
+    background-color: #1a1a1a;
+    border: 1px solid #444444;
+    border-radius: 6px;
+    padding: 5px 10px;
+    min-width: 100px;
+}
+QComboBox:hover {
+    border: 1px solid #00a2ff;
+}
+QComboBox::drop-down {
+    border: 0px;
+}
+
+/* Radio buttons */
+QRadioButton {
+    color: #cccccc;
+    spacing: 8px;
+    padding: 5px;
+}
+QRadioButton:hover {
+    color: #ffffff;
+}
+QRadioButton::indicator {
+    width: 18px;
+    height: 18px;
+    border: 2px solid #555555;
+    border-radius: 10px;
+    background-color: #1a1a1a;
+}
+QRadioButton::indicator:checked {
+    background-color: #00a2ff;
+    border: 2px solid #00a2ff;
+    image: url(check.png); /* Fallback to a dot if no image */
+}
+QRadioButton::indicator:hover {
+    border: 2px solid #00a2ff;
+}
+
+/* ScrollBar */
+QScrollBar:vertical {
+    border: none;
+    background: #0f0f0f;
+    width: 10px;
+    margin: 0px;
+}
+QScrollBar::handle:vertical {
+    background: #333333;
+    min-height: 20px;
+    border-radius: 5px;
+}
+QScrollBar::handle:vertical:hover {
+    background: #444444;
+}
+
+/* Message Box */
+QMessageBox {
+    background-color: #1a1a1a;
+}
+QMessageBox QLabel {
+    color: #ffffff;
+}
